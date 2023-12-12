@@ -32,6 +32,9 @@
     php artisan ui react --auth
 - Install Npm Packages
     npm install
+        + Error:    npm ERR! Could not resolve dependency:
+                    npm ERR! peer vite@"^3.0.0" from @vitejs/plugin-react@2.2.0
+        + Solved:   npm config set legacy-peer-deps true  / Run npm install again 
     npm run dev
 - Run php artisan Migrate
     php artisan migrate
