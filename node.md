@@ -24,3 +24,14 @@
 
 - Link tham khảo tài liệu 
     https://laravelmodules.com/docs/v10/introduction
+### Install Laravel UI 
+
+- Command to install the LARAVEL ui package in the laravel app
+    composer require laravel/ui
+- Setup React Auth Scaffolding
+    php artisan ui react --auth
+- Install Npm Packages
+    npm install
+    npm run dev
+- Run php artisan Migrate
+    php artisan migrate
